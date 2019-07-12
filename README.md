@@ -5,7 +5,7 @@ This is the fourth project of Full Stack Web Develper Nanodegree by Udacity.
 Users can sign in with google or facebook. After sign in, they can create, edit, delete category or course.
 
 ## Project Description
->This is a project assigned by Udacity in part of the Udacity Full Stack Nanodegree program. In This project, we're provided a sql file to generate a `sqllite` database and a `Vagrantfile` settings to run a VM server to run the database.
+>This is a project assigned by Udacity in part of the Udacity Full Stack Nanodegree program. In This project, we're provided a sql file to generate a `sqlite` database and a `Vagrantfile` settings to run a VM server to run the database.
 >Your task is to create a reporting tool that prints out reports (in plain text) based on the data in the database. This reporting tool is a Python program using the psycopg2 module to connect to the database.
 
 ## Setting up the VM using VirtualBox and Vagrant
