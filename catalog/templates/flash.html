@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <!-- Flash -->
+      {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+      <div class="alert alert-{{ category }}" role="alert">
+        <ul>
+          <li>{{ message }}</li>
+        </ul>
+      </div>
+      {% endfor %}
+      {% endwith %}
+
+      <!-- /.col-md-12 -->
+    </div>
+
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>

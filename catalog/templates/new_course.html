@@ -1,0 +1,13 @@
+{% extends 'course_form.html' %}
+
+{% block form_title %}
+New Course
+{% endblock %}
+
+{% block action_url %}
+{{ url_for('create_course', category_id=category.id) }}
+{% endblock %}
+
+{% block form_submit %}
+Create
+{% endblock %}

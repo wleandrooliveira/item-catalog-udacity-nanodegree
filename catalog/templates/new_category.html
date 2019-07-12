@@ -1,0 +1,13 @@
+{% extends 'category_form.html' %}
+
+{% block form_title %}
+New Category
+{% endblock %}
+
+{% block action_url %}
+{{ url_for('create_category') }}
+{% endblock %}
+
+{% block form_submit %}
+Create
+{% endblock %}
