@@ -62,11 +62,10 @@ To use social login, you need to get client id from google and facebook and set 
  - Python
 
 ### Frameworks
- - [Flask][2]
- - [Bootstrap][3]
- - [Simple Blog Template][5]
- - [Jinja2][6]
+ - [Flask][1]
+ - [Bootstrap][2]
+ - [Jinja2][3]
 
-[2]: http://flask.pocoo.org/
-[3]: http://getbootstrap.com/
-[6]: http://jinja.pocoo.org/docs/dev/
+[1]: http://flask.pocoo.org/
+[2]: http://getbootstrap.com/
+[3]: http://jinja.pocoo.org/docs/dev/
